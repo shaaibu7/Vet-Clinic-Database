@@ -73,7 +73,6 @@ Clone this repository to your desired folder:
   git clone https://github.com/shaaibu7/Vet-Clinic-Database
   cd Vet-Clinic-Database
 ```
--
 
 ### Usage
 
