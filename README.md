@@ -1,15 +1,3 @@
-# Vet_clinic database
-
-is a relational database used to create the database for a vet clinic. I created a table to store animals' information, insert some data into it, and query it.
-
-## Getting Started
-
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database.
-
 <a name="readme-top"></a>
 
 # 📗 Table of Contents
@@ -38,7 +26,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 # 📖 [Vet_clinic database] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
 **[Vet_clinic database]** is a relational database used to create the database for a vet clinic. I created a table to store animals' information, insert some data into it, and query it.
 
@@ -56,8 +43,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **Create animal table**
 - **Populate table with animal data**
 - **Query data**
@@ -65,13 +50,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- Coming soon....
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -82,7 +60,8 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 ```sh
- gem install rails
+ PostgreSql
+ Visual Studio Code
 ```
 
 ### Setup
@@ -92,48 +71,18 @@ Clone this repository to your desired folder:
 ```sh
   cd my-folder
   git clone https://github.com/shaaibu7/Vet-Clinic-Database
+  cd Vet-Clinic-Database
 ```
-
--
-
-### Install
-
-Install this project with:
-
-```sh
-  cd vet_clinic
-  gem install
-```
-
 -
 
 ### Usage
 
-To run the project, execute the following command:
+This repository includes files with plain SQL that can be used to recreate a database:
 
-```sh
-  rails server
-```
-
+- Use [schema.sql](./schema.sql) to create all tables.
+- Use [data.sql](./data.sql) to populate tables with sample data.
+- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database.
 -
-
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
-
--
-
-### Deployment
-
-You can deploy this project using:
-
-```sh
-
-```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,8 +97,6 @@ You can deploy this project using:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **Add multiple tables for database**
 - [ ] **Query multiple tables**
@@ -168,9 +115,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project then don't forget to give star ⭐ to this repository.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
