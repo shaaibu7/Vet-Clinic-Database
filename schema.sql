@@ -1,2 +1,3 @@
 CREATE DATABASE vet_clinic;
-CREATE TABLE animals(id INT GENERATED ALWAYS AS IDENTITY, name VARCHAR(250), date_of_birth DATE, escape_attempts INT, neutered BOOLEAN, weight_kg DECIMAL(5,2),species VARCHAR(250), PRIMARY KEY(id));
+CREATE TABLE animals(id INT GENERATED ALWAYS AS IDENTITY, name VARCHAR(250), date_of_birth DATE, escape_attempts INT, neutered BOOLEAN, weight_kg DECIMAL(5,2), PRIMARY KEY(id));
+ALTER TABLE animals ADD species VARCHAR(250);
