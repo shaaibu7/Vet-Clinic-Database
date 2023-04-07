@@ -13,3 +13,6 @@ ALTER TABLE animals ADD FOREIGN KEY (species_id) REFERENCES species(id);
 ALTER TABLE animals ADD owner_id INT;
 ALTER TABLE animals ADD FOREIGN KEY (owner_id) REFERENCES owners(id);
 
+CREATE TABLE vets(id INT GENERATED ALWAYS AS IDENTITY, name VARCHAR(250),age INT, date_of_graduation DATE, PRIMARY KEY(id));
+CREATE TABLE specializations(species_id INT, vets_id INT);
+CREATE TABLE visits(animal_id INT, vets_id INT, date_of_visit DATE);
